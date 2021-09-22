@@ -1,0 +1,132 @@
+/* This is where we will write our CSS */
+
+/* Navbar */
+
+/* Main */
+body{
+    background-image: url("./planks.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    color: white;
+}
+#topbox{
+    background-color: #14202A;
+}
+#navbar{
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+}
+h1{
+    margin-top: 0px;
+}
+#navbar a{
+    font-size: 200%;
+    transition: background-color .5s;
+    border-radius: 15px;
+}
+
+#navbar a:hover {
+    text-shadow: gold;
+    background-color: rgba(196, 196, 196, 0.322);
+} 
+
+
+#navbar a:link{
+    color: rgb(97, 112, 247);
+    text-decoration: none;
+}
+
+#navbar a:visited{
+    color: rgb(97, 112, 247);
+    text-decoration: none;
+}
+
+img{
+    width: 20rem;
+    height: auto;
+}
+.Paras {
+    font-size: 17px;
+}
+#headfont{
+    font-size: 19;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #14202A;
+    width: 70%;
+    margin-left: 15%;
+    min-height: 86.5vh;
+}
+#box{
+    width: 49.8%;
+    text-align: center;
+    border: 1px solid white;
+}
+#box img{
+    border-radius: 8px;
+    width: 250px;
+    height: 250px
+}
+.contacts{
+    text-align: center;
+}
+.contacts a:link{
+    color: white;
+}
+.contacts a:visited{
+    color: white;
+}
+
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#smallicon img{
+    width: 60px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.bigspace{
+    display: flex;
+    justify-content: end;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #14202A;
+    flex-direction: column;
+    border: 0px;
+    min-height: 86.5vh;
+}
+#sections{
+    width: 50%;
+    align-items: center;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-items: center;
+}
+#b2{
+    text-align: left;
+    margin-top: 240px;
+    margin-left: 150px;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+/* Footer */
