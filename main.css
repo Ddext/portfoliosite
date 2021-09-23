@@ -12,6 +12,9 @@ body{
 #topbox{
     background-color: #14202A;
 }
+#farright{
+    text-align: end;
+}
 #navbar{
     display: flex;
     min-width: 100%;
@@ -127,6 +130,6 @@ img{
     text-align: left;
     margin-top: 240px;
     margin-left: 150px;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.568);
 }
 /* Footer */
